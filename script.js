@@ -23,6 +23,11 @@
      }
  }
 
- const elements = document.querySelectorAll('[data-type]');
+function startDrawing(){
+    const elements = document.querySelectorAll('[data-type]');
  
-elements.forEach(draw)
+    elements.forEach(draw);
+ }
+ startDrawing() //runs immediately
+ 
+setInterval(startDrawing, 8000); //for running after every 8s
