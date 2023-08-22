@@ -30,4 +30,4 @@ function startDrawing(){
  }
  startDrawing() //runs immediately
  
-setInterval(startDrawing, 8000); //for running after every 8s
+setInterval(startDrawing, 9000); //for running after every 8s
